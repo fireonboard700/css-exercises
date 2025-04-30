@@ -30,7 +30,6 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header, .footer {
@@ -43,9 +42,11 @@ body {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
